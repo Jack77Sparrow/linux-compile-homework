@@ -15,8 +15,8 @@ double multiply(double a, double b) {
 
 double divide(double a, double b) {
     if (b == 0) {
-        printf("Помилка: ділення на нуль неможливе!\n");
-        return 0; // Повертаємо 0 у разі помилки
+        printf("Zero division error!\n");
+        return 0; // If error return 0
     }
     return a / b;
 }
